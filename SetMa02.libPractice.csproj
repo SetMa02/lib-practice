@@ -6,6 +6,13 @@
     </PropertyGroup>
 
     <ItemGroup>
+      <_ContentIncludedByDefault Remove="libPractice.Front\bin\Debug\net5.0\libPractice.Front.deps.json" />
+      <_ContentIncludedByDefault Remove="libPractice.Front\obj\libPractice.Front.csproj.nuget.dgspec.json" />
+      <_ContentIncludedByDefault Remove="libPractice.Front\obj\project.assets.json" />
+      <_ContentIncludedByDefault Remove="libPractice.Front\obj\project.packagespec.json" />
+    </ItemGroup>
+
+    <ItemGroup>
       <PackageReference Include="Swashbuckle.AspNetCore" Version="6.1.4" />
     </ItemGroup>
 
